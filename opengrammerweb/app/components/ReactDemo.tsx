@@ -32,7 +32,7 @@ export default function ReactDemo() {
         style={{ whiteSpace: 'pre-wrap' }}
         suppressContentEditableWarning={true}
       >
-        They're going there. You're welcome! Its working great.
+        There happy today.
       </div>
       <p className="text-xs text-blue-600 dark:text-blue-400">
         Powered by React hooks. Grammar checking updates automatically.
