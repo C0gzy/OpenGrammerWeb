@@ -14,10 +14,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-blue-900 dark:text-blue-100">
+              <h1 className="md:block text-2xl hidden font-bold text-blue-900 dark:text-blue-100">
                 OpenGrammer
               </h1>
-              <p className="text-sm text-blue-700 dark:text-blue-300 mt-1">
+              <h1 className="text-2xl md:hidden font-bold text-blue-900 dark:text-blue-100">
+                OpenG
+              </h1>
+              <p className="hidden md:block text-sm text-blue-700 dark:text-blue-300 mt-1">
                 Grammar checking made easy
               </p>
             </div>
